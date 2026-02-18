@@ -67,3 +67,9 @@
 .menu-item:nth-child(3) { transition-delay: 0.4s; }
 .menu-item:nth-child(4) { transition-delay: 0.55s; }
 
+@font-face {
+    font-family: 'PixelCode';
+    src: url('fonts/PixelCode.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

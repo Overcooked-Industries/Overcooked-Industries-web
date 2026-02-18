@@ -256,3 +256,10 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+@font-face {
+    font-family: 'PixelCode';
+    src: url('fonts/PixelCode.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
