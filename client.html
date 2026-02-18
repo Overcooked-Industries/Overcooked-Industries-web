@@ -15,10 +15,28 @@
         body, p, h2, h3, a, button, .feature-card, .subtitle {
             font-family: 'Minecraftia', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
         }
+        .page-title {
+            font-family: 'Pixel Code', sans-serif;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #ff0055;
+            text-shadow:
+                0 0 4px #ff005577,
+                0 0 10px #ff005577,
+                0 0 18px #ff005577;
+        }
+
+        .left-right-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 0px;
+            margin-top: 0px;
+        }
+        
     </style>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
 
@@ -34,7 +52,7 @@
         <div class="menu-item" onclick="location.href='index.html'">About Us</div>
         <div class="menu-item" onclick="location.href='client.html'">Deep Fried Client</div>
         <div class="menu-item" onclick="location.href='socials.html'">Socials</div>
-        <div class="menu-item" onclick="location.href='features&commands.html'">Features & Commands</div>
+        <div class="menu-item" onclick="location.href='features.html'">Features & Commands</div>
     </nav>
 
     <!-- ⭐ Logo -->
@@ -43,13 +61,27 @@
     </div>
 
     <!-- ⭐ Header -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="title glow normal-font">DeepFried Client</h1>
-            <p class="subtitle">Der beste 1.21.11 Client</p>
-            <a href="#download" class="btn">Download</a>
-        </div>
-    </header>
+    <div>
+        <h1></h1>
+        <header class="hero-content">
+        <h1 class="page-title", align="middle">Deep Fried Client</h1>
+    </div>
+    <div class="left-right-grid">
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="page-title">Hack-Client</h1>
+                <p class="subtitle">Unser Minecraft Hack-Client für Fabric 1.21.11!</p>
+                <a href="#download" class="btn">Download</a>
+            </div>
+        </header>
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="page-title">Safe Client</h1>
+                <p class="subtitle">Unser Minecraft All in one Client für Fabric 1.21.11!</p>
+                <a href="#download" class="btn">Download</a>
+            </div>
+        </header>
+    </div>
 
     <!-- ⭐ Features -->
     <section class="section" id="features">
